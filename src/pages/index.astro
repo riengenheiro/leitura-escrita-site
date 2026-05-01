@@ -1,9 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { WHATSAPP_URL } from '../config/site';
+import {
+  CHECKOUT_URL,
+  GUARANTEE_DAYS,
+  WHATSAPP_URL,
+} from '../config/site';
 
-const pageTitle = 'Você avalia a criança, mas ainda fica insegura sobre o que fazer depois?';
-const pageDescription = 'A história por trás da primeira aula da Dra. Guaciara Fornaciari para terapeutas que avaliam leitura e escrita.';
+const pageTitle = 'Avaliação de Leitura e Escrita | Experiência Clínica Aberta ao Vivo com Dra. Guaciara Fornaciari';
+const pageDescription = 'Experiência Clínica Aberta ao Vivo em 06/05 às 19h para fonoaudiólogas, psicopedagogas e terapeutas que avaliam crianças com queixa de leitura e escrita.';
 ---
 <Layout title={pageTitle} description={pageDescription}>
   <main>
@@ -21,6 +25,11 @@ const pageDescription = 'A história por trás da primeira aula da Dra. Guaciara
           <p style="margin-top:18px; opacity:0.85;">
             Foi por ver essa angústia em tantas profissionais que a Dra. Guaciara decidiu abrir, pela primeira vez, uma aula especial para terapeutas.
           </p>
+          <div class="cta-row" style="margin-top:30px;">
+            <a class="btn" href="#oferta">Garantir minha vaga</a>
+            <a class="btn btn-secondary" href="#conteudo">Ver conteúdo da aula</a>
+          </div>
+          <p style="font-size:0.95rem; opacity:0.82; margin-top:18px; font-style:italic;">Aula ao vivo em 06 de maio, às 19h. Vagas limitadas para preservar a interação.</p>
         </div>
         <div class="photo-frame">
           <img src="/images/leitura-escrita/guaciara-hero.webp" alt="Dra. Guaciara Fornaciari, fonoaudióloga e Educadora Especial" width="520" height="650" loading="eager" />
@@ -105,6 +114,16 @@ const pageDescription = 'A história por trás da primeira aula da Dra. Guaciara
             <p style="margin-top:14px;">“Super recomendo! A Maria chegou na clínica com um atraso de fala significativo e saímos com ela uma tagarelinha.”</p>
             <strong style="display:block; margin-top:20px;">Thais Belli</strong>
           </article>
+          <article class="card">
+            <div class="stars">★★★★★</div>
+            <p style="margin-top:14px;">“Dra Guaciara é muito atenciosa e carinhosa, gostei muito do atendimento e recomendo com certeza. Obrigada por ajudar a cuidar da minha bebê!”</p>
+            <strong style="display:block; margin-top:20px;">Marina Malaman Navas Yancovitz</strong>
+          </article>
+          <article class="card">
+            <div class="stars">★★★★★</div>
+            <p style="margin-top:14px;">“Consegui amamentar a minha filha graças a Guaciara. A minha gratidão com ela é imensa e eterna. A Guaci é extremamente técnica e humana.”</p>
+            <strong style="display:block; margin-top:20px;">Danielle Lima</strong>
+          </article>
         </div>
         <p style="margin-top:28px;"><a class="btn btn-secondary" href="https://www.google.com/search?q=guaciara+instituto" target="_blank" rel="noopener noreferrer">Ler avaliações completas no Google</a></p>
       </div>
@@ -151,6 +170,141 @@ const pageDescription = 'A história por trás da primeira aula da Dra. Guaciara
           <li>Sustentar a devolutiva à família com base nos achados — sem traduzir tudo em jargão.</li>
           <li>Sinalizar quando há indicação de encaminhamento e como conduzir esse momento com a família e a equipe.</li>
         </ul>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="narrow" style="text-align:center;">
+          <span class="eyebrow">Para quem é</span>
+          <h2>Esta aula faz sentido se a sua rotina inclui avaliar e raciocinar sobre cada criança.</h2>
+          <p class="lead" style="margin-top:18px;">
+            O recorte é clínico. O foco é a leitura entre os achados — não mais um instrumento para a sua estante.
+          </p>
+        </div>
+        <div class="grid-auto" style="margin-top:42px;">
+          <div class="card"><strong>Você aplica instrumentos formais</strong><p style="margin-top:8px;">e ainda assim sente dificuldade em organizar os achados em uma hipótese clínica consistente.</p></div>
+          <div class="card"><strong>Você ouve queixas de leitura e escrita</strong><p style="margin-top:8px;">e quer estruturar a anamnese e a observação clínica com mais critério antes da devolutiva.</p></div>
+          <div class="card"><strong>Você acompanha crianças há meses</strong><p style="margin-top:8px;">e percebe que faltava clareza sobre o que precisaria ter sido priorizado desde o início.</p></div>
+          <div class="card"><strong>Você quer raciocinar com autonomia</strong><p style="margin-top:8px;">para sustentar a sua conduta clínica diante da família, da escola e da equipe.</p></div>
+          <div class="card"><strong>Você atua como fonoaudióloga, psicopedagoga ou neuropsicopedagoga</strong><p style="margin-top:8px;">e quer alinhar a avaliação ao raciocínio clínico que orienta o plano terapêutico.</p></div>
+          <div class="card"><strong>Você precisa fazer devolutivas claras</strong><p style="margin-top:8px;">à família e à escola sem reduzir a leitura técnica nem se perder no jargão.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container">
+        <div class="narrow" style="text-align:center;">
+          <span class="eyebrow">O diferencial</span>
+          <h2>Antes de aplicar instrumentos, defina a pergunta clínica.</h2>
+          <p class="lead" style="margin-top:18px;">
+            A proposta não é entregar mais um protocolo. É devolver à terapeuta o raciocínio que sustenta cada decisão clínica.
+          </p>
+        </div>
+        <div class="grid-3" style="margin-top:42px;">
+          <article class="card">
+            <h3>Raciocínio antes do instrumento</h3>
+            <p style="margin-top:12px;">A pergunta clínica vem antes do teste. Sem ela, a avaliação vira coleta de dados sem um eixo que dê sentido.</p>
+          </article>
+          <article class="card">
+            <h3>Prática clínica de 21 anos</h3>
+            <p style="margin-top:12px;">Vivência consolidada em alfabetização, leitura, escrita e transtornos de aprendizagem — em sala de atendimento e em sala de aula.</p>
+          </article>
+          <article class="card">
+            <h3>Conteúdo desenhado para terapeutas</h3>
+            <p style="margin-top:12px;">É a primeira vez que a Dra. Guaciara abre esse recorte para profissionais clínicos, e não para professoras.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container grid-2">
+        <div class="photo-frame">
+          <img src="https://fabricamagica.doutoraescola.com.br/images/fabrica-magica/guaciara.webp" alt="Dra. Guaciara Fornaciari" width="520" height="620" loading="lazy" />
+        </div>
+        <div>
+          <span class="eyebrow">Quem conduz</span>
+          <h2>Dra. Guaciara Fornaciari</h2>
+          <p class="lead" style="margin-top:18px;">
+            Fonoaudióloga e Educadora Especial, com 21 anos de prática clínica em alfabetização, leitura, escrita e transtornos de aprendizagem.
+          </p>
+          <ul class="checks" style="margin-top:24px;">
+            <li>Fundadora do Instituto Guaciara, em atividade desde 2020.</li>
+            <li>Vivência em sala de atendimento, supervisão clínica e diálogo direto com famílias e escolas.</li>
+            <li>Nota 5,0 com 53 avaliações públicas no Google.</li>
+            <li>Criadora do perfil clínico-educacional @doutoraescola.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="oferta" class="section section-soft">
+      <div class="container">
+        <div class="narrow" style="text-align:center;">
+          <span class="eyebrow">Inscrição</span>
+          <h2>Reserve a sua vaga na Experiência Clínica Aberta ao Vivo.</h2>
+          <p class="lead" style="margin-top:16px;">
+            Uma aula, um encontro, um recorte clínico aberto pela primeira vez para terapeutas.
+          </p>
+        </div>
+        <div style="display:flex; justify-content:center; margin-top:44px;">
+          <article class="card" style="display:flex; flex-direction:column; max-width:480px; width:100%; border:2px solid var(--earth);">
+            <span class="eyebrow">Experiência Clínica Aberta ao Vivo</span>
+            <h3>06 de maio · 19h · online</h3>
+            <div style="font-family:'IBM Plex Serif',Georgia,serif; font-size:3.2rem; font-weight:700; color:var(--forest); line-height:1; margin-top:18px;">R$ 57</div>
+            <p style="margin-top:10px; color:var(--muted); font-style:italic;">Investimento simbólico para preservar o compromisso de quem se inscreve.</p>
+            <ul class="checks" style="margin-top:24px; margin-bottom:28px;">
+              <li>Experiência Clínica Aberta ao Vivo, em 06/05 às 19h, com a Dra. Guaciara Fornaciari.</li>
+              <li>Espaço para perguntas e interação clínica em tempo real.</li>
+              <li>Grupo no WhatsApp para envio do link de acesso e avisos.</li>
+              <li>Garantia de {GUARANTEE_DAYS} dias após a inscrição.</li>
+            </ul>
+            <a class="btn" href={CHECKOUT_URL} style="margin-top:auto;">Quero participar da aula</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="narrow">
+        <div class="card" style="text-align:center;">
+          <span class="eyebrow">Garantia</span>
+          <h2>{GUARANTEE_DAYS} dias para você avaliar com calma se a aula é o que você espera.</h2>
+          <p class="lead" style="margin-top:18px;">
+            Se entender que o recorte não atende à sua prática clínica, basta solicitar o reembolso dentro do prazo. Decisão simples, sem desconforto.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="narrow" style="text-align:center;">
+          <span class="eyebrow">Dúvidas frequentes</span>
+          <h2>Respostas diretas antes da inscrição.</h2>
+        </div>
+        <div class="narrow" style="margin-top:36px;">
+          <details class="card" open><summary>A experiência é ao vivo ou gravada?</summary><p style="margin-top:12px;">É uma Experiência Clínica Aberta ao Vivo, em 06 de maio às 19h, com interação em tempo real entre a Dra. Guaciara e as participantes inscritas.</p></details>
+          <details class="card" style="margin-top:14px;"><summary>Para quem é essa aula?</summary><p style="margin-top:12px;">Para fonoaudiólogas, psicopedagogas, neuropsicopedagogas, pedagogas clínicas e profissionais que avaliam ou acompanham crianças com queixa de leitura e escrita.</p></details>
+          <details class="card" style="margin-top:14px;"><summary>É uma aula completa sobre avaliação?</summary><p style="margin-top:12px;">É um recorte clínico voltado ao raciocínio que sustenta a avaliação, à definição de prioridades e à devolutiva. Não substitui uma formação longa, mas dá um eixo claro para reorganizar a sua prática.</p></details>
+          <details class="card" style="margin-top:14px;"><summary>Como recebo o acesso?</summary><p style="margin-top:12px;">Após a confirmação do pagamento, você é direcionada para o grupo no WhatsApp, onde recebe o link de acesso e as orientações da aula.</p></details>
+          <details class="card" style="margin-top:14px;"><summary>Preciso ter experiência clínica prévia?</summary><p style="margin-top:12px;">Não é necessário ter especialização específica, mas a aula assume que você atua ou pretende atuar com avaliação, leitura, escrita e aprendizagem.</p></details>
+          <details class="card" style="margin-top:14px;"><summary>Como funciona a garantia?</summary><p style="margin-top:12px;">Você tem {GUARANTEE_DAYS} dias após a inscrição para solicitar reembolso, sem questionamentos. É só escrever para a equipe.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-gradient">
+      <div class="narrow" style="text-align:center;">
+        <span class="eyebrow">Experiência Clínica Aberta ao Vivo · 06 de maio · 19h</span>
+        <h2>Não vou guardar nada. Vou conduzir o passo a passo do raciocínio clínico que orienta a avaliação de leitura e escrita.</h2>
+        <p class="lead" style="margin-top:18px;">Reserve a sua vaga e venha aprender a olhar para a leitura e a escrita com a clareza que a clínica exige.</p>
+        <div class="cta-row" style="justify-content:center; margin-top:30px;">
+          <a class="btn" href={CHECKOUT_URL}>Quero participar da aula · R$ 57</a>
+          <a class="btn btn-secondary" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">Falar com a equipe</a>
+        </div>
       </div>
     </section>
   </main>
