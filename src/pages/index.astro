@@ -1,0 +1,174 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { WHATSAPP_URL } from '../config/site';
+
+const pageTitle = 'Você avalia a criança, mas ainda fica insegura sobre o que fazer depois?';
+const pageDescription = 'A história por trás da primeira aula da Dra. Guaciara Fornaciari para terapeutas que avaliam leitura e escrita.';
+---
+<Layout title={pageTitle} description={pageDescription}>
+  <main>
+    <section class="section section-gradient">
+      <div class="container grid-2">
+        <div>
+          <span class="eyebrow">Avaliação de Leitura e Escrita</span>
+          <h1>Você avalia a criança... mas ainda fica insegura sobre o que fazer depois?</h1>
+          <p class="lead" style="margin-top:22px;">
+            Você observa, aplica instrumentos, reúne informações importantes — mas na hora de definir o próximo passo, sente que falta clareza.
+          </p>
+          <p style="margin-top:18px; opacity:0.85;">
+            E quando a criança não evolui como esperado, vem aquela dúvida silenciosa: “Será que eu estou priorizando o que realmente importa?”
+          </p>
+          <p style="margin-top:18px; opacity:0.85;">
+            Foi por ver essa angústia em tantas profissionais que a Dra. Guaciara decidiu abrir, pela primeira vez, uma aula especial para terapeutas.
+          </p>
+        </div>
+        <div class="photo-frame">
+          <img src="/images/leitura-escrita/guaciara-hero.webp" alt="Dra. Guaciara Fornaciari, fonoaudióloga e Educadora Especial" width="520" height="650" loading="eager" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container grid-2">
+        <div class="photo-frame">
+          <img src="/images/leitura-escrita/instituto.webp" alt="Instituto Guaciara, espaço de atendimento em fonoaudiologia" width="560" height="420" loading="lazy" />
+        </div>
+        <div>
+          <span class="eyebrow">A origem</span>
+          <h2>Em março de 2020, enquanto tudo fechava, ela abriu o próprio instituto.</h2>
+          <p style="margin-top:20px;">
+            A pandemia tinha acabado de ser declarada. Em meio à incerteza geral, a Dra. Guaciara tomou uma decisão de propósito: fundar um instituto de fonoaudiologia voltado ao raciocínio clínico em leitura, escrita e aprendizagem.
+          </p>
+          <p style="margin-top:16px;">
+            Seis anos depois, o que sustenta o trabalho não é discurso — são as famílias atendidas. Nota 5,0, 53 avaliações públicas e uma reputação construída atendimento por atendimento.
+          </p>
+          <div class="grid-auto" style="margin-top:28px;">
+            <div class="card">
+              <strong style="font-family:'IBM Plex Serif',Georgia,serif; font-size:2.2rem; color:var(--forest); display:block; line-height:1;">5,0</strong>
+              <span>Avaliação média das famílias atendidas</span>
+            </div>
+            <div class="card">
+              <strong style="font-family:'IBM Plex Serif',Georgia,serif; font-size:2.2rem; color:var(--forest); display:block; line-height:1;">53</strong>
+              <span>Avaliações públicas no Google</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-forest">
+      <div class="narrow">
+        <span class="eyebrow">Por que agora?</span>
+        <h2>Em 21 anos de prática clínica, ela nunca tinha aberto o conhecimento para terapeutas.</h2>
+        <p class="lead" style="margin-top:22px;">
+          A Dra. Guaciara sempre formou professoras. Sempre dialogou com escolas. Sempre traduziu a aprendizagem para quem está no chão da educação.
+        </p>
+        <p style="margin-top:18px;">
+          Mas começou a receber, na clínica, crianças vindas de outros profissionais. Crianças com meses ou anos de intervenção, com famílias dedicadas e equipes empenhadas, em que faltava clareza sobre o que precisaria ter sido priorizado desde o início.
+        </p>
+        <div class="card" style="margin-top:34px;">
+          <p class="quote">
+            “O que eu mais tenho visto e acompanhado são crianças que chegam com anos de intervenção, mas sem um raciocínio claro sobre o que realmente precisa ser priorizado.”
+          </p>
+        </div>
+        <p style="margin-top:24px;">
+          Não é crítica à formação de ninguém. É a constatação de uma lacuna formativa: aprendemos a aplicar instrumentos antes de aprender a fazer a pergunta clínica que dá sentido a eles.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container">
+        <div class="grid-2" style="align-items:end;">
+          <div>
+            <span class="eyebrow">Reconhecimento público</span>
+            <h2>O olhar das famílias sobre o trabalho clínico.</h2>
+          </div>
+          <p class="lead">
+            Depoimentos públicos de famílias atendidas no Instituto Guaciara, registrados no Google.
+          </p>
+        </div>
+
+        <div class="grid-auto" style="margin-top:42px;">
+          <article class="card">
+            <div class="stars">★★★★★</div>
+            <p style="margin-top:14px;">“Guaciara é simplesmente maravilhosa! Muito atenciosa e dedicada no trabalho que realiza com muita excelência. Tivemos resultados super rápidos com a minha filha de 6 anos.”</p>
+            <strong style="display:block; margin-top:20px;">Renata Madeira</strong>
+          </article>
+          <article class="card">
+            <div class="stars">★★★★★</div>
+            <p style="margin-top:14px;">“Escolhemos este consultório pelas boas avaliações e hoje, ao levarmos nossa filha Malu de 21 dias, confirmamos cada uma delas. Fomos recebidos com acolhimento e um atendimento verdadeiramente humanizado.”</p>
+            <strong style="display:block; margin-top:20px;">Danillo Oliveira</strong>
+          </article>
+          <article class="card">
+            <div class="stars">★★★★★</div>
+            <p style="margin-top:14px;">“Super recomendo! A Maria chegou na clínica com um atraso de fala significativo e saímos com ela uma tagarelinha.”</p>
+            <strong style="display:block; margin-top:20px;">Thais Belli</strong>
+          </article>
+        </div>
+        <p style="margin-top:28px;"><a class="btn btn-secondary" href="https://www.google.com/search?q=guaciara+instituto" target="_blank" rel="noopener noreferrer">Ler avaliações completas no Google</a></p>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container grid-2">
+        <div>
+          <span class="eyebrow">A ponte</span>
+          <h2>É exatamente esse recorte clínico que ela vai conduzir em uma Experiência Clínica Aberta ao Vivo.</h2>
+          <p class="lead" style="margin-top:20px;">
+            Um encontro voltado a fonoaudiólogas, psicopedagogas e terapeutas que querem avaliar leitura e escrita com clareza, definir prioridades e sustentar a devolutiva.
+          </p>
+          <div class="cta-row" style="margin-top:30px;">
+            <a class="btn btn-secondary" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">Falar com a equipe</a>
+          </div>
+        </div>
+        <div class="card">
+          <span class="eyebrow">Primeira vez</span>
+          <h3>Uma aula clínica para terapeutas.</h3>
+          <ul class="checks" style="margin-top:22px;">
+            <li>Para fonoaudiólogas, psicopedagogas, neuropsicopedagogas e pedagogas clínicas.</li>
+            <li>Foco em raciocínio clínico, prioridades terapêuticas e devolutiva.</li>
+            <li>Conduzida por quem atende crianças, dialoga com famílias e conhece a escola por dentro.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="conteudo" class="section section-forest">
+      <div class="container grid-2">
+        <div>
+          <span class="eyebrow">Conteúdo da aula</span>
+          <h2>Da queixa ao plano terapêutico, sem pular a pergunta clínica.</h2>
+          <p class="lead" style="margin-top:20px;">
+            A aula percorre o caminho que a clínica realmente exige: o que perguntar, o que observar, o que confirmar com instrumento e o que fica visível só na escuta.
+          </p>
+        </div>
+        <ul class="checks">
+          <li>Definir a pergunta clínica que orienta cada avaliação de leitura e escrita.</li>
+          <li>Organizar os achados da anamnese, observação e instrumentos em uma hipótese clínica consistente.</li>
+          <li>Reconhecer quando o instrumento confirma a hipótese e quando ele não responde à pergunta principal.</li>
+          <li>Definir prioridades terapêuticas com critério clínico, não por hábito ou roteiro.</li>
+          <li>Sustentar a devolutiva à família com base nos achados — sem traduzir tudo em jargão.</li>
+          <li>Sinalizar quando há indicação de encaminhamento e como conduzir esse momento com a família e a equipe.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <strong style="font-size:1.35rem;">DOUTORA ESCOLA</strong>
+        <p style="margin-top:10px;">Avaliação de Leitura e Escrita com Dra. Guaciara Fornaciari.</p>
+        <p style="margin-top:18px;">TODOS OS DIREITOS RESERVADOS · DOUTORA ESCOLA © 2026</p>
+        <p style="font-size:0.9rem; margin-top:12px;">Este site não faz parte do Facebook ou Facebook Inc. FACEBOOK é uma marca registrada da Meta Platforms, Inc.</p>
+      </div>
+      <div>
+        <p><a href="https://doutoraescola.com.br/privacidade/privacidade.html" target="_blank" rel="noopener noreferrer">Política de Privacidade</a></p>
+        <p style="margin-top:10px;"><a href="https://doutoraescola.com.br/privacidade/termo.html" target="_blank" rel="noopener noreferrer">Termos de Uso</a></p>
+        <p style="margin-top:10px;"><a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">Contato via WhatsApp</a></p>
+        <p style="font-size:0.85rem; margin-top:18px;">Developed by dvzDesing</p>
+      </div>
+    </div>
+  </footer>
+</Layout>
